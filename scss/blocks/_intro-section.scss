@@ -1,0 +1,44 @@
+.intro-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.intro-img {
+    width: 615px;
+    height: 463px;
+    margin-top: 38px;
+}
+
+.intro-section__intro-leading {
+    margin-top: 55px;
+    margin-left: 52px;
+    color: rgb(255, 255, 255);
+}
+
+.intro-leading__intro-heading {
+    width: 350px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    margin: 0;
+}
+
+.intro-leading__intro-text {
+    font-family: 'OpenSans';
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.intro-leading__intro-learn {
+    font-family: 'OpenSans';
+    font-size: 16px;
+    line-height: 19px;
+    color: rgb(98, 224, 217);
+    border-bottom: 2px solid;
+}
+
+.intro-learn-intro-img {
+    width: 12px;
+    height: 12px;
+}

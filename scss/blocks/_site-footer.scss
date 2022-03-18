@@ -1,0 +1,165 @@
+.site-footer {
+    background-color: rgb(11, 21, 36);
+}
+
+.site-form {
+    max-width: 800px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-left: 190px;
+    background: #1B2330;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.254274);
+    border-radius: 9px;
+    transform: translateY(-120px);
+}
+
+.site-form__form-heading {
+    margin: 0;
+    font-size: 32px;
+    line-height: 48px;
+    padding-top: 37px;
+}
+
+.site-form__form-text {
+    font-family: 'OpenSans';
+    width: 592px;
+    font-size: 14px;
+    line-height: 21px;
+    margin-left: 101px;
+}
+
+.site-form__site-contact {
+    width: 100%;
+    padding-bottom: 44px;
+}
+
+.contact-form {
+    width: 400px;
+    border: none;
+    background: #FFFFFF;
+    box-shadow: 2px 3px 6px rgba(7, 4, 59, 0.157043);
+    border-radius: 24px;
+    padding-top: 21px;
+    padding-left: 47px;
+    padding-bottom: 20px;
+    outline: 0;
+}
+
+.footer-btn {
+    width: 200px;
+    height: 56px;
+    // background-color: linear-gradient(152.13deg, #63E1D9 -150.21%, #34A0CD 170.03%);
+    background-color: #42B4D1;
+    color: rgb(255, 255, 255);
+    box-shadow: 2px 3px 6px rgba(7, 4, 59, 0.157043);
+    border-radius: 24px;
+    border: none;
+    cursor: pointer;
+}
+
+.footer-lowest__lowest-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(255, 255, 255);
+}
+
+.lowest-inner__text {
+    width: 320px;
+    font-family: 'OpenSans';
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 28px;
+    margin-left: 40px;
+    letter-spacing: 0.7px;
+}
+
+.lowest-inner__text::before {
+    content: "";
+    display: block;
+    background-image: url(../../img/lokatsia.png);
+    background-position: calc(50% - 0px) calc(50% + 0px);
+    background-repeat: no-repeat;
+    width: 12px;
+    height: 18px;
+    margin-left: -27px;
+    margin-bottom: -23px;
+}
+
+.lowest-wrapper__lowest-inner {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.lowest-inner__inner-link-mail {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-top: 13px;
+}
+
+.lowest-inner__inner-link-mail::before {
+    content: "";
+    display: inline-block;
+    width: 19px;
+    height: 18px;
+    background-image: url(../../img/email.png);
+    background-position: calc(50% - 1px);
+    background-repeat: no-repeat;
+    margin-right: 20px;
+    margin-bottom: -4px;
+}
+
+.lowest-inner__inner-link-tel {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.lowest-inner__inner-link-tel::before {
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-image: url(../../img/telephone.png);
+    background-position: calc(50% - 1px);
+    background-repeat: no-repeat;
+    margin-right: 20px;
+    margin-bottom: -4px;
+}
+
+.lowest-wrapper__footer-nav {
+    display: flex;
+    gap: 70px;
+    margin-left: 70px;
+}
+
+.footer-nav__footer-nav-list {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin-top: 80px;
+    list-style-type: none;
+}
+
+.footer-nav__footer-item {
+    padding-bottom: 3px;
+    padding-bottom: 2px solid;
+}
+
+.footer-nav__footer-link {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'OpenSans';
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.socials-list {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.socials-list__socials-item~.socials-list__socials-item {
+    margin-left: 11px;
+}

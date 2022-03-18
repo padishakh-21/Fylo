@@ -1,0 +1,34 @@
+.team-work__work-list {
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    color: rgb(255, 255, 255);
+    margin-top: 131px;
+    margin-left: 77px;
+}
+
+.team-work__work-item {
+    margin-bottom: 32px;
+    margin-left: 17px;
+}
+
+.work-list__work-heading {
+    margin: 0;
+    padding-bottom: 18px;
+    padding-left: 25px;
+    width: 341px;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.work-list__work-text {
+    font-family: 'OpenSans';
+    margin: 0;
+    width: 366px;
+    font-size: 14px;
+    line-height: 21px;
+}
