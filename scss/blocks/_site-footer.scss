@@ -101,8 +101,8 @@
 .lowest-inner__inner-link-mail::before {
     content: "";
     display: inline-block;
-    width: 19px;
-    height: 18px;
+    width: 22px;
+    height: 19px;
     background-image: url(../../img/email.png);
     background-position: calc(50% - 1px);
     background-repeat: no-repeat;
@@ -120,6 +120,7 @@
     display: inline-block;
     width: 22px;
     height: 19px;
+    font-size: 14px;
     background-image: url(../../img/telephone.png);
     background-position: calc(50% - 1px);
     background-repeat: no-repeat;
